@@ -1,0 +1,180 @@
+# Site
+repository: giorgioskij/giorgioskij.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Giorgio Strano
+title: CS Master's student at Sapienza University
+email: giorgiopuntostrano@gmail.com
+# website: 
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+# twitter_username: 
+github_username: giorgioskij
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: 
+# linkedin_username: 
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: 
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: ./whoami
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  My name is Giorgio Strano.   
+  I was born and currently live in Rome, Italy, where I study Computer Science at Sapienza University.  
+
+  If I had lived in the 1300s I would have spent my life trying to understand how
+  things worked. Unfortunately now solving string theory or P vs NP is out of my
+  league, so the next best thing is teaching computers how to comprehend things
+  that we possibly never could.
+
+  I love logic a bit too much, reverse engineering, solving problems and putting
+  my skills to the test whenever I can.
+
+
+
+content:
+  - title: ~/uni
+    layout: text
+    content: | 
+      After completing with honors my Bachelor's in Computer Science at Sapienza in 2021,
+      I continued with a Master's degree especially focused on theoretical
+      computer science and artificial intelligence, with a particular interest in Deep Learning.  
+
+      As of June 2023, I am taking my last few exams, and I intend to spend the 
+      next academic year working on my Master's thesis.
+
+      Some of the topics that I have recently studied and I found extremely fascinating include:
+      - Multimodal deep learning, with particular interest on latent space analysis and interpretation, fully convolutional architectures, VQ-VAEs, diffusion models and transformers
+      - Advanced algorithms
+      - Graph theory
+      - Intensive computation and quantum computing
+      - Natural language processing
+      - Computer graphics, especially physically based volumetric path-tracing
+
+      Follows a list of some of my favorite projects from the last couple of years,
+      with a brief description.
+      Code, results, and other (less interesting) projects are on my GitHub.
+
+
+  - title: ~/dev # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+
+      - layout: center-left
+        title: Tripod
+        link: coming soon...
+        # quote: >
+        description: | # this will include new lines to allow paragraphs
+          Still a work in progress, Tripod will be a small and portable deep 
+          learning model to sharpen and correct the focus of real-world photographs.
+
+      - layout: center-left
+        title: Quecto-JL
+        link: https://github.com/giorgioskij/Quecto-JL
+        # quote: >
+        description: | # this will include new lines to allow paragraphs
+          A physically based volumetric path tracer written in Julia from scratch 
+          with my friend and colleague Antonio Gargiulo. It is 
+          inspired from [Yocto/GL](https://github.com/xelatihy/yocto-gl), the
+          rendering engine developed by our professor, Fabio Pellacini. 
+          It renders complex 3D scenes accurately, with almost negligible slowdown
+          compared to a fairly optimized equivalently capable C++ implementation.
+
+      - layout: center-left
+        title: World Models
+        link: https://github.com/giorgioskij/world-models
+        description: | # this will include new lines to allow paragraphs
+          This is a re-implementation, with more experiments, and an extension to
+          different videogame environments of the paper [World Models](https://worldmodels.github.io/).
+
+      - layout: center-left
+        title: NLP - Coreference resolution
+        link: https://github.com/giorgioskij/NLP-coreference-resolution
+        description: | # this will include new lines to allow paragraphs
+          For my third homework of the NLP course, held by Roberto Navigli, I
+          tackled the challenge of [GAP-coreference](https://github.com/google-research-datasets/gap-coreference),
+          achieving results very close to state-of-the-art with a distilled transformer
+          that could fit in 8GB of VRAM.
+      
+      - layout: center-left
+        title: NLP - Named Entity Recognition
+        link: https://github.com/giorgioskij/NLP-Named-Entity-Recognition
+        description: | # this will include new lines to allow paragraphs
+          A transformer-free approach to named entity resolution, using bidirectional
+          LSTMs on different type of non-contextualized embeddings (W2V, Glove), 
+          improved with character embedding and a Conditional Random Field (CRF).
+
+      - layout: center-left
+        title: Super Mario DDQN
+        link: https://github.com/giorgioskij/SuperMario-RL
+        description: | # this will include new lines to allow paragraphs
+          An implementation from scratch (...meaning from vanilla pytorch) of the 
+          Double Deep Q Learning algorithm, applied to the classic first ever 
+          Super Mario Bros videogame for the NES.
+
+      - layout: center-left
+        title: ANNRL
+        link: private code
+        description: | # this will include new lines to allow paragraphs
+          For my Bachelor's thesis I devloped this project with the [Vision Lab](https://visionlab.di.uniroma1.it/)
+          of Sapienza: Adaptive Neural Networks Via Reinforcement Learning.
+          It explores the idea of networks able to automatically resize during 
+          training to maximize the efficiency of crucial neurons and reduce the 
+          overhead of inactive ones, achieving automatic in-itinere pruning and extension
+          of networks based on the complexity of the task.
+
+
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+  #     - Rock climbing
+  #     - Gaming
+  #     - Knitting
+  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+  #     Look at this cool image  
+#      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag

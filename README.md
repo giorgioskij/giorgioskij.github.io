@@ -1,3 +1,0 @@
-# Giorgio Strano
-
-Test
