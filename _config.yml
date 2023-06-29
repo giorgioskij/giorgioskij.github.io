@@ -46,13 +46,13 @@ github_username: giorgioskij
 
 # About Section
 about_title: ./whoami
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile_cropped.jpg
 about_content: | # this will include new lines to allow paragraphs
   My name is Giorgio Strano.   
   I was born and currently live in Rome, Italy, where I study Computer Science at Sapienza University.  
 
   If I had lived in the 1300s I would have spent my life trying to understand how
-  things worked. Unfortunately now solving string theory or P vs NP is out of my
+  things worked. Unfortunately now solving string theory or P vs NP is way out of my
   league, so the next best thing is teaching computers how to comprehend things
   that we possibly never could.
 
@@ -80,7 +80,7 @@ content:
       - Natural language processing
       - Computer graphics, especially physically based volumetric path-tracing
 
-      Follows a list of some of my favorite projects from the last couple of years,
+      Here follows a list of some of my favorite projects from the last couple of years,
       with a brief description.
       Code, results, and other (less interesting) projects are on my GitHub.
 
