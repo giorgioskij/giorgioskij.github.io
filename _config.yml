@@ -51,14 +51,13 @@ about_content: | # this will include new lines to allow paragraphs
   My name is Giorgio Strano.   
   I was born and currently live in Rome, Italy, where I study Computer Science at Sapienza University.  
 
-  If I had lived in the 1300s I would have spent my life trying to understand how
-  things worked. Unfortunately now solving string theory or P vs NP is way out of my
-  league, so the next best thing is teaching computers how to comprehend things
-  that we possibly never could.
+  My journey is in pursuit of a deeper understanding of human and artificial
+  intelligence to explore the limitless potential of deep learning and tackle
+  challenges we once deemed unsolvable, redefining the realms of what is 
+  possible with modern technology.
 
   I love logic a bit too much, reverse engineering, solving problems and putting
   my skills to the test whenever I can.
-
 
 
 content:
@@ -67,7 +66,7 @@ content:
     content: | 
       After completing with honors my Bachelor's in Computer Science at Sapienza in 2021,
       I continued with a Master's degree especially focused on theoretical
-      computer science and artificial intelligence, with a particular interest in Deep Learning.  
+      computer science and artificial intelligence, with a particular interest in deep learning.  
 
       As of June 2023, I am taking my last few exams, and I intend to spend the 
       next academic year working on my Master's thesis.
@@ -153,17 +152,16 @@ content:
           of networks based on the complexity of the task.
 
 
-  # - title: A Little More About Me
-  #   layout: text
-  #   content: | # this will include new lines to allow paragraphs
-  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-  #     - Rock climbing
-  #     - Gaming
-  #     - Knitting
-  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  - title: ~/stuff
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Aside from Computer Science, I've always been 
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Rock climbing
+      - Gaming
+      - Knitting
+      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-  #     Look at this cool image  
-#      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: false
