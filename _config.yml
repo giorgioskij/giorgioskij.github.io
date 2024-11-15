@@ -91,7 +91,7 @@ content:
     content:
 
       - layout: center-left
-        title: LAG: Latent Accompaniment Generation
+        title: LAG - Latent Accompaniment Generation
         link: private code
         # quote: >
         description: | # this will include new lines to allow paragraphs
@@ -99,7 +99,6 @@ content:
           musical accompaniments. Currently, it vastly outperforms state-of-the-art open source models
           on the same task, and I am currently perfecting the model and preparing experiments for 
           a publication.
-
 
       - layout: center-left
         title: Tripod
