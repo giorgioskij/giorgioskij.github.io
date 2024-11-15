@@ -48,9 +48,13 @@ github_username: giorgioskij
 about_title: ./whoami
 about_profile_image: images/profile_cropped.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi! I'm Giorgio. I am a first year PhD student at Sapienza, in Rome, at the [Gladia lab](https://gladia.di.uniroma1.it/) under supervision of prof. Rodolà.   
+  Hi! I'm Giorgio. I am a first year PhD student at Sapienza, in Rome, at the [Gladia lab](https://gladia.di.uniroma1.it/) under supervision of prof. Emanuele Rodolà.   
 
-  Currently, I am working on audio generative models, with special focus on controllability and human interpretation of audio latent spaces.
+  Currently, I am working on audio generative models, with special focus on controllability, conditioning sources and strategies, and human interpretation of audio latent spaces.
+
+  I am also working as machine learning engineer at [TrueSound AI](https://truesound.ai/), a deep tech startup founded by my professor, focused on generative models for musicians.
+
+  After dark, I am a passionate music maker and listener, lover of photogaraphy and experimental art.
 
   I love logic a bit too much, reverse engineering, solving problems and putting
   my skills to the test whenever I can.
@@ -65,6 +69,9 @@ content:
       computer science and artificial intelligence, with a particular interest in deep learning.  
 
       I graduated with honors from my Master's in June 2024, and as of November 2024, I just started my PhD.
+
+      Bachelor's thesis: *Automated generation of optimized nural networks through reinforcement learning*.
+      Master's thesis: *Transformers that listen: latent autoregressive accompaniment generation*.
 
       Some of the topics that I care about the most in computer science include:
       - Multimodal deep learning, with particular interest on latent space analysis and interpretation, fully convolutional architectures, VQ-VAEs, diffusion models and transformers
@@ -84,11 +91,22 @@ content:
     content:
 
       - layout: center-left
-        title: Tripod
-        link: coming soon...
+        title: LAG: Latent Accompaniment Generation
+        link: private code
         # quote: >
         description: | # this will include new lines to allow paragraphs
-          Still a work in progress, Tripod will be a small and portable deep 
+          Started as my Master's thesis project, I adapted and fine-tuned a transformer model to generate
+          musical accompaniments. Currently, it vastly outperforms state-of-the-art open source models
+          on the same task, and I am currently perfecting the model and preparing experiments for 
+          a publication.
+
+
+      - layout: center-left
+        title: Tripod
+        link: https://github.com/giorgioskij/tripod
+        # quote: >
+        description: | # this will include new lines to allow paragraphs
+          Tripod is a small and portable, fully-convolutional deep 
           learning model to sharpen and correct the focus of real-world photographs.
 
       - layout: center-left
