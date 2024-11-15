@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Giorgio Strano
-title: CS Master's student at Sapienza University
+title: CS PhD student at Sapienza University
 email: giorgiopuntostrano@gmail.com
 # website: 
 
@@ -48,12 +48,9 @@ github_username: giorgioskij
 about_title: ./whoami
 about_profile_image: images/profile_cropped.jpg
 about_content: | # this will include new lines to allow paragraphs
-  My name is Giorgio Strano.   
-  I was born and currently live in Rome, Italy, where I study Computer Science at Sapienza University.  
+  Hi! I'm Giorgio. I am a first year PhD student at Sapienza, in Rome, at the [Gladia lab](https://gladia.di.uniroma1.it/) under supervision of prof. Rodolà.   
 
-  My journey is in pursuit of a deeper understanding of human and artificial
-  intelligence to explore challenges that once seemed unsolvable, redefining the
-  realms of what is possible with modern technology.
+  Currently, I am working on audio generative models, with special focus on controllability and human interpretation of audio latent spaces.
 
   I love logic a bit too much, reverse engineering, solving problems and putting
   my skills to the test whenever I can.
@@ -67,10 +64,9 @@ content:
       I continued with a Master's degree especially focused on theoretical
       computer science and artificial intelligence, with a particular interest in deep learning.  
 
-      As of June 2023, I am taking my last few exams, and I intend to spend the 
-      next academic year working on my Master's thesis.
+      I graduated with honors from my Master's in June 2024, and as of November 2024, I just started my PhD.
 
-      Some of the topics that I have recently studied and I found extremely fascinating include:
+      Some of the topics that I care about the most in computer science include:
       - Multimodal deep learning, with particular interest on latent space analysis and interpretation, fully convolutional architectures, VQ-VAEs, diffusion models and transformers
       - Advanced algorithms
       - Graph theory
