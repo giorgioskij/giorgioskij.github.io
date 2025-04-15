@@ -8,8 +8,8 @@ version: 2
 # Personal info
 name: Giorgio Strano
 title: CS PhD student at Sapienza University
-email: giorgiopuntostrano@gmail.com
-# website: 
+email: strano@di.uniroma1.it
+website: https://scholar.google.com/citations?user=EvsNWNIAAAAJ&hl=en&oi=ao
 
 # Dark Mode (true/false/never)
 darkmode: true
