@@ -48,57 +48,52 @@ github_username: giorgioskij
 about_title: ./whoami
 about_profile_image: images/profile_cropped.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi! I'm Giorgio. I am a first year PhD student at Sapienza, in Rome, at the [Gladia lab](https://gladia.di.uniroma1.it/) under supervision of prof. Emanuele Rodolà.   
-
-  Currently, I am working on audio generative models, with special focus on controllability, conditioning sources and strategies, and human interpretation of audio latent spaces.
-
-  I am also working as machine learning engineer at [TrueSound AI](https://truesound.ai/), a deep tech startup founded by my professor, focused on generative models for musicians.
+  Hi! I'm Giorgio. I am a second year PhD student at Sapienza, in Rome, at the [Gladia lab](https://gladia.di.uniroma1.it/) under supervision of prof. Emanuele Rodolà.   
 
   After dark, I am a passionate music maker and listener, lover of photogaraphy and experimental art.
 
   I love logic a bit too much, reverse engineering, solving problems and putting
   my skills to the test whenever I can.
 
-
 content:
-  - title: ~/uni
+  - title: ~/research
     layout: text
     content: | 
-      After completing with honors my Bachelor's in Computer Science at Sapienza in 2021,
-      I continued with a Master's degree especially focused on theoretical
-      computer science and artificial intelligence, with a particular interest in deep learning.  
+      At the moment, my research is focused on:
+      - Audio generative models, with special focus on controllability, conditioning sources and strategies, and representation learning for audio;
+      - Optimization and training dynamics of large models in continual learning;
+      - Quantization of transformer models.
 
-      I graduated with honors from my Master's in June 2024, and as of November 2024, I just started my PhD.
+content:
+  - title: ~/publications
+    layout: text
+    content: |
 
-      Bachelor's thesis: *Automated generation of optimized nural networks through reinforcement learning*.
-      Master's thesis: *Transformers that listen: latent autoregressive accompaniment generation*.
+      - layout: center-left
+        title: "The dynamics of forgetting". Blogpost under review at ICLR 2025. 
+        link: not yet published
 
-      Some of the topics that I care about the most in computer science include:
-      - Multimodal deep learning, with particular interest on latent space analysis and interpretation, fully convolutional architectures, VQ-VAEs, diffusion models and transformers
-      - Advanced algorithms
-      - Graph theory
-      - Intensive computation and quantum computing
-      - Natural language processing
-      - Computer graphics, especially physically based volumetric path-tracing
+      - layout: center-left
+        title: "LoopGen: Training-Free Loopable Music Generation". ISMIR 2025.
+        link: https://arxiv.org/abs/2504.04466
 
-      Here follows a list of some of my favorite projects from the last couple of years,
-      with a brief description.
-      Code, results, and other projects are on my GitHub.
+      - layout: center-left
+        title: "STAGE: Stemmed Accompaniment Generation through Prefix-Based Conditioning". ISMIR 2025.
+        link: https://arxiv.org/abs/2504.05690
+
+      - layout: center-left
+        title: "Activation Patching for Interpretable Steering in Music Generation". Under review at ICASSP 2026.
+        link: https://arxiv.org/abs/2504.04479
+
+      - layout: center-left
+        title: "Membership and Dataset Inference Attacks on Large Audio Generative Models". GenProCC, Ai4Music @ NeurIPS 2025.
+        link: https://arxiv.org/abs/2512.09654
 
 
-  - title: ~/dev # Title for the section
+  - title: ~/fun # Title for the section
     layout: list # Type of content section (list/text)
     content:
 
-      - layout: center-left
-        title: LAG - Latent Accompaniment Generation
-        link: private code
-        # quote: >
-        description: | # this will include new lines to allow paragraphs
-          Started as my Master's thesis project, I adapted and fine-tuned a transformer model to generate
-          musical accompaniments. Currently, it vastly outperforms state-of-the-art open source models
-          on the same task, and I am currently perfecting the model and preparing experiments for 
-          a publication.
 
       - layout: center-left
         title: Tripod
@@ -151,17 +146,6 @@ content:
           An implementation from scratch (...meaning from vanilla pytorch) of the 
           Double Deep Q Learning algorithm, applied to the classic first ever 
           Super Mario Bros videogame for the NES.
-
-      - layout: center-left
-        title: ANNRL
-        link: private code
-        description: | # this will include new lines to allow paragraphs
-          For my Bachelor's thesis I devloped this project with the [Vision Lab](https://visionlab.di.uniroma1.it/)
-          of Sapienza: Adaptive Neural Networks Via Reinforcement Learning.
-          It explores the idea of networks able to automatically resize during 
-          training to maximize the efficiency of crucial neurons and reduce the 
-          overhead of inactive ones, achieving automatic in-itinere pruning and extension
-          of networks based on the complexity of the task.
 
 
   # - title: ~/stuff
