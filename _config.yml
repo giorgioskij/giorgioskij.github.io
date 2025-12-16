@@ -9,7 +9,7 @@ version: 2
 name: Giorgio Strano
 title: CS PhD student at Sapienza University
 email: strano@di.uniroma1.it
-website: [Google Scholar](https://scholar.google.com/citations?user=EvsNWNIAAAAJ&hl=en&oi=ao)
+website: "https://scholar.google.com/citations?user=EvsNWNIAAAAJ&hl=en&oi=ao"
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -64,30 +64,66 @@ content:
       - Optimization and training dynamics of large models in continual learning;
       - Quantization of transformer models.
 
-content:
   - title: ~/publications
-    layout: text
-    content: |
+    layout: list
+    content:
 
       - layout: center-left
-        title: "The dynamics of forgetting". Blogpost under review at ICLR 2025. 
-        link: not yet published
-
-      - layout: center-left
-        title: "LoopGen: Training-Free Loopable Music Generation". ISMIR 2025.
-        link: https://arxiv.org/abs/2504.04466
-
-      - layout: center-left
-        title: "STAGE: Stemmed Accompaniment Generation through Prefix-Based Conditioning". ISMIR 2025.
+        title: ISMIR 2025.
         link: https://arxiv.org/abs/2504.05690
+        description: |
+          *STAGE: Stemmed Accompaniment Generation through Prefix-Based Conditioning*
+
+          **G. Strano**, C. Ballanti, D. Crisostomi, M. Mancusi, L. Cosmo, E. Rodolà. 
 
       - layout: center-left
-        title: "Activation Patching for Interpretable Steering in Music Generation". Under review at ICASSP 2026.
-        link: https://arxiv.org/abs/2504.04479
+        title: ISMIR 2025.
+        link: https://arxiv.org/abs/2504.04466
+        description: |
+          *LoopGen: Training-Free Loopable Music Generation*
+
+          D. Marincione, **G. Strano**, D. Crisostomi, R. Ribuoli, E. Rodolà. 
 
       - layout: center-left
-        title: "Membership and Dataset Inference Attacks on Large Audio Generative Models". GenProCC, Ai4Music @ NeurIPS 2025.
+        title: GenProCC, AI4Music @ NeurIPS 2025.
         link: https://arxiv.org/abs/2512.09654
+        description: |
+          *Membership and Dataset Inference Attacks on Large Audio Generative Models*
+
+          Jakub Proboszcz, Paweł Kochanski, Karol Korszun, Donato Crisostomi, Giorgio Strano, Emanuele Rodolà, Kamil Deja, Jan Dubinski. 
+
+      - layout: center-left
+        title: Under Review at ICLR 2026 - Blogpost Track.
+        link: not yet published
+        description: |
+          *The dynamics of forgetting*
+
+          **G. Strano**, F. Pappone, D. Crisostomi, E. Rodolà. 
+
+      - layout: center-left
+        title: Under review at ICASSP 2026.
+        link: https://arxiv.org/abs/2504.04479
+        description: |
+          *Activation Patching for Interpretable Steering in Music Generation*
+
+          S. Facchiano, G. Strano, D. Crisostomi, I. Tallini, T. Mencattini, F. Galasso, E. Rodolà.
+
+
+      # - layout: center-left
+      #   title: '"LoopGen: Training-Free Loopable Music Generation". ISMIR 2025.'
+      #   link: https://arxiv.org/abs/2504.04466
+
+      # - layout: center-left
+      #   title: '"STAGE: Stemmed Accompaniment Generation through Prefix-Based Conditioning". ISMIR 2025.'
+      #   link: https://arxiv.org/abs/2504.05690
+
+      # - layout: center-left
+      #   title: '"Activation Patching for Interpretable Steering in Music Generation". Under review at ICASSP 2026.'
+      #   link: https://arxiv.org/abs/2504.04479
+
+      # - layout: center-left
+      #   title: '"Membership and Dataset Inference Attacks on Large Audio Generative Models". GenProCC, Ai4Music @ NeurIPS 2025.'
+      #   link: https://arxiv.org/abs/2512.09654
 
 
   - title: ~/fun # Title for the section
