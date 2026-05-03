@@ -9,34 +9,24 @@ version: 2
 name: Giorgio Strano
 title: CS PhD student at Sapienza University
 email: strano@di.uniroma1.it
-website: "https://scholar.google.com/citations?user=EvsNWNIAAAAJ&hl=en&oi=ao"
 
 # Dark Mode (true/false/never)
 darkmode: true
 
-# Social links
-# twitter_username: 
-github_username: giorgioskij
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: 
-# linkedin_username: 
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: 
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+# Header icon links (rendered in order)
+additional_links:
+  - title: Email
+    icon: fas fa-envelope
+    url: mailto:strano@di.uniroma1.it
+  - title: Google Scholar
+    icon: fas fa-graduation-cap
+    url: https://scholar.google.com/citations?user=EvsNWNIAAAAJ&hl=en&oi=ao
+  - title: GitHub
+    icon: fab fa-github
+    url: https://github.com/giorgioskij
+  - title: X
+    icon: fa-brands fa-x-twitter
+    url: https://x.com/krytox205
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -48,7 +38,9 @@ github_username: giorgioskij
 about_title: ./whoami
 about_profile_image: images/profile_cropped.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi! I'm Giorgio. I am a second year PhD student at Sapienza, in Rome, at the [Gladia lab](https://gladia.di.uniroma1.it/) under supervision of prof. Emanuele Rodolà.   
+  Hi! I'm Giorgio. I am a second year PhD student at Sapienza, in Rome, at the [Gladia lab](https://gladia.di.uniroma1.it/) under supervision of prof. Emanuele Rodolà.
+
+  I am currently working on AI safety and decoding geometry and semantics in latent neural representations.
 
   After dark, I am a passionate music maker and listener, lover of photogaraphy and experimental art.
 
@@ -58,15 +50,30 @@ about_content: | # this will include new lines to allow paragraphs
 content:
   - title: ~/research
     layout: text
-    content: | 
+    content: |
       At the moment, my research is focused on:
-      - Audio generative models, with special focus on controllability, conditioning sources and strategies, and representation learning for audio;
+      - Geometry and semantics of latent neural representations;
       - Optimization and training dynamics of large models in continual learning;
-      - Quantization of transformer models.
+      - Audio generative models, with special focus on controllability, conditioning sources and strategies, and representation learning for audio.
 
   - title: ~/publications
     layout: list
     content:
+      - layout: center-left
+        title: Under blind review.
+        link:
+        description: |
+          *Distortion Controls Rate: How VAEs Shape Latent Geometry*
+
+          **G. Strano**, L. Cerovaz, M. Mancusi, T. Mencattini, E. Rodolà.
+
+      - layout: center-left
+        title: ICML 2026.
+        link:
+        description: |
+          *PHALAR: Phasors for Learned Musical Audio Representations*
+
+          D. Marincione, M. Mancusi, **G. Strano**, L. Cerovaz, D. Crisostomi, R. Ribuoli, E. Rodolà.
 
       - layout: center-left
         title: ISMIR 2025.
@@ -74,7 +81,7 @@ content:
         description: |
           *STAGE: Stemmed Accompaniment Generation through Prefix-Based Conditioning*
 
-          **G. Strano**, C. Ballanti, D. Crisostomi, M. Mancusi, L. Cosmo, E. Rodolà. 
+          **G. Strano**, C. Ballanti, D. Crisostomi, M. Mancusi, L. Cosmo, E. Rodolà.
 
       - layout: center-left
         title: ISMIR 2025.
@@ -82,7 +89,7 @@ content:
         description: |
           *LoopGen: Training-Free Loopable Music Generation*
 
-          D. Marincione, **G. Strano**, D. Crisostomi, R. Ribuoli, E. Rodolà. 
+          D. Marincione, **G. Strano**, D. Crisostomi, R. Ribuoli, E. Rodolà.
 
       - layout: center-left
         title: GenProCC, AI4Music @ NeurIPS 2025.
@@ -90,24 +97,23 @@ content:
         description: |
           *Membership and Dataset Inference Attacks on Large Audio Generative Models*
 
-          Jakub Proboszcz, Paweł Kochanski, Karol Korszun, Donato Crisostomi, Giorgio Strano, Emanuele Rodolà, Kamil Deja, Jan Dubinski. 
+          J. Proboszcz, P. Kochanski, K. Korszun, D. Crisostomi, **G. Strano**, E. Rodolà, K. Deja, J. Dubinski.
+
+      # - layout: center-left
+      #   title: Under Review at ICLR 2026 - Blogpost Track.
+      #   link: not yet published
+      #   description: |
+      #     *The dynamics of forgetting*
+
+      #     **G. Strano**, F. Pappone, D. Crisostomi, E. Rodolà.
 
       - layout: center-left
-        title: Under Review at ICLR 2026 - Blogpost Track.
-        link: not yet published
-        description: |
-          *The dynamics of forgetting*
-
-          **G. Strano**, F. Pappone, D. Crisostomi, E. Rodolà. 
-
-      - layout: center-left
-        title: Under review at ICASSP 2026.
+        title: ArXiv 2025
         link: https://arxiv.org/abs/2504.04479
         description: |
           *Activation Patching for Interpretable Steering in Music Generation*
 
-          S. Facchiano, G. Strano, D. Crisostomi, I. Tallini, T. Mencattini, F. Galasso, E. Rodolà.
-
+          S. Facchiano, **G. Strano**, D. Crisostomi, I. Tallini, T. Mencattini, F. Galasso, E. Rodolà.
 
       # - layout: center-left
       #   title: '"LoopGen: Training-Free Loopable Music Generation". ISMIR 2025.'
@@ -125,18 +131,15 @@ content:
       #   title: '"Membership and Dataset Inference Attacks on Large Audio Generative Models". GenProCC, Ai4Music @ NeurIPS 2025.'
       #   link: https://arxiv.org/abs/2512.09654
 
-
   - title: ~/fun # Title for the section
     layout: list # Type of content section (list/text)
     content:
-
-
       - layout: center-left
         title: Tripod
         link: https://github.com/giorgioskij/tripod
         # quote: >
         description: | # this will include new lines to allow paragraphs
-          Tripod is a small and portable, fully-convolutional deep 
+          Tripod is a small and portable, fully-convolutional deep
           learning model to sharpen and correct the focus of real-world photographs.
 
       - layout: center-left
@@ -144,10 +147,10 @@ content:
         link: https://github.com/giorgioskij/Quecto-JL
         # quote: >
         description: | # this will include new lines to allow paragraphs
-          A physically based volumetric path tracer written in Julia from scratch 
-          with my friend and colleague Antonio Gargiulo. It is 
+          A physically based volumetric path tracer written in Julia from scratch
+          with my friend and colleague Antonio Gargiulo. It is
           inspired from [Yocto/GL](https://github.com/xelatihy/yocto-gl), the
-          rendering engine developed by our professor, Fabio Pellacini. 
+          rendering engine developed by our professor, Fabio Pellacini.
           It renders complex 3D scenes accurately, with almost negligible slowdown
           compared to a fairly optimized equivalently capable C++ implementation.
 
@@ -166,28 +169,26 @@ content:
           tackled the challenge of [GAP-coreference](https://github.com/google-research-datasets/gap-coreference),
           achieving results very close to state-of-the-art with a distilled transformer
           that could fit in 8GB of VRAM.
-      
+
       - layout: center-left
         title: NLP - Named Entity Recognition
         link: https://github.com/giorgioskij/NLP-Named-Entity-Recognition
         description: | # this will include new lines to allow paragraphs
           A transformer-free approach to named entity resolution, using bidirectional
-          LSTMs on different type of non-contextualized embeddings (W2V, Glove), 
+          LSTMs on different type of non-contextualized embeddings (W2V, Glove),
           improved with character embedding and a Conditional Random Field (CRF).
 
       - layout: center-left
         title: Super Mario DDQN
         link: https://github.com/giorgioskij/SuperMario-RL
         description: | # this will include new lines to allow paragraphs
-          An implementation from scratch (...meaning from vanilla pytorch) of the 
-          Double Deep Q Learning algorithm, applied to the classic first ever 
+          An implementation from scratch (...meaning from vanilla pytorch) of the
+          Double Deep Q Learning algorithm, applied to the classic first ever
           Super Mario Bros videogame for the NES.
-
 
   # - title: ~/stuff
   #   layout: text
   #   content: | # this will include new lines to allow paragraphs
-
 
 # Footer
 footer_show_references: false
@@ -201,4 +202,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag

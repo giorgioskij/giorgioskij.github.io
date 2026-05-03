@@ -3,3 +3,36 @@
 ---
 
 @import 'modern-resume-theme';
+@import url('https://use.fontawesome.com/releases/v6.5.2/css/all.css');
+
+.icons a.button--sacnite::before {
+  display: none;
+}
+
+.icons a,
+.icons a.button,
+.icons a.button--sacnite {
+  width: auto;
+  height: auto;
+  min-width: 0;
+  line-height: 1;
+  padding: 0;
+  background: none;
+}
+
+.icons a:hover {
+  background: none;
+}
+
+.icons i,
+.dark .icons i {
+  color: #fff;
+  background: none;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.icons a:hover i,
+.dark .icons a:hover i {
+  color: #aaa;
+}
